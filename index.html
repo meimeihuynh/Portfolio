@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min Portefølje</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo-section">
+                    <a href="#home" class="logo" aria-label="Hjem"><img src="images/portfolio logo.png" alt="initials"
+                             width="auto" height="45px"></a>
+                    <h1 class="site-title"></h1>
+                </div>
+                <nav class="navbar">
+                    <ul class="nav-menu">
+                        <li><a href="#home">Hjem</a></li>
+                        <li><a href="#about">Om</a></li>
+                        <li><a href="#projects">Prosjekter</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                    <button class="burger-toggle" id="burgerToggle" aria-label="Slå på/av navigasjonsmeny">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Burger Menu -->
+    <nav class="burger-nav" id="burgerNav">
+        <ul class="burger-menu-items">
+            <li><a href="#home">Hjem</a></li>
+            <li><a href="#about">Om</a></li>
+            <li><a href="#tools">Ferdigheter</a></li>
+            <li><a href="#verktoy">Verktøy</a></li>
+            <li><a href="#harlaert">Erfaring</a></li>
+            <li><a href="#qualifications">Utdanning</a></li>
+            <li><a href="#projects">Prosjekter</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home/Hero Section -->
+    <section id="home" class="hero">
+        <img src="images/decorations/star-gold.svg" alt="" class="decorative-star star-hero-one" aria-hidden="true">
+        <img src="images/decorations/star-purple.svg" alt="" class="decorative-star star-hero-two" aria-hidden="true">
+        <div class="container">
+            <div class="hero-content">
+                <div class="portrait">
+                    <img src="images/Pfp.jpg" alt="Your Portrait" class="portrait-img" width="200px" height="auto">
+                </div>
+                <div class="hero-text">
+                    <h2 class="name">Ngoc Tran Huynh</h2>
+                    <p class="tagline"></p>
+                    <p class="hero-description">Jeg er Ngoc Tran Huynh, kreativ problemløser med interesse for læring, form og funksjon.</p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="primary-btn">Se Prosjekter</a>
+                        <a href="Ngoc Tran Huynh-2026 CV.pdf" class="secondary-btn" download="Ngoc Tran Huynh-CV.pdf">Last ned CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <img src="images/decorations/star-purple.svg" alt="" class="decorative-star star-about" aria-hidden="true">
+        <div class="container">
+            <h2 class="section-title">Om Meg</h2>
+            <div class="about-content">
+               <p>Jeg er Ngoc Tran Huynh. <br>
+                <br>Jeg arbeider med programmering, webutvikling og design, og motiveres av å skape interaktive og visuelt meningsfulle uttrykk. Gjennom illustrasjon, grafisk design, webutvikling og søm utforsker jeg ulike måter å formidle ideer og budskap på.
+                Jeg arbeider utforskende og reflektert, der jeg utvikler ideer gjennom tankeprosesser og justeringer for å komme fram til løsninger jeg står inne for.<br>
+                <br>Jeg arbeider utforskende og reflektert, og utvikler ideer gjennom en prosess med utprøving, justeringer og videreutvikling. For meg er det viktigste at det jeg skaper har en tydelig hensikt og formidler noe til mottakeren, enten gjennom et statisk visuelt uttrykk eller gjennom interaktivitet.
+                <br>Jeg ønsker å fortsette å utvikle meg i krysningspunktet mellom kreativt arbeid og tekniske verktøy, og utforske hvordan disse kan kombineres for å skape meningsfulle opplevelser.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Verktøy Section -->
+    <section id="verktoy" class="verktoy">
+        <div class="container">
+            <h2 class="section-title">Verktøy</h2>
+            <div class="verktoy-group">
+                <h3 class="verktoy-subtitle">Primær</h3>
+                <div class="verktoy-content">
+                
+                <div class="verktoy-item">
+                    <img src="images/logo/programing.png"  alt="Programming" class="verktoy-img" width="100px" height="auto">
+                    <p class="verktoy-text">React + Vite</p>
+                </div>
+
+                <div class="verktoy-item">
+                    <img src="images/logo/text.png"  alt="Programming" class="verktoy-img" width="100px" height="auto">
+                    <p class="verktoy-text">HTML</p>
+                </div>
+
+                <div class="verktoy-item">
+                    <img src="images/logo/css-3.png"  alt="Programming" class="verktoy-img" width="100px" height="auto">
+                    <p class="verktoy-text">CSS</p>
+                </div>
+
+                <div class="verktoy-item">
+                    <img src="images/logo/js.png"  alt="Programming" class="verktoy-img" width="100px" height="auto">
+                    <p class="verktoy-text">JavaScript</p>
+                </div>
+
+
+                <div class="verktoy-item">
+                    <img src="images/logo/kritalogo.png"  alt="Krita" class="verktoy-img" width="100px" height="auto">
+                    <p class="verktoy-text">Krita</p>
+                </div>
+
+                <div class="verktoy-item">
+                    <img src="images/logo/figma.png"  alt="Figma" class="verktoy-img-figma" width="100px" height="auto">
+                    <p class="verktoy-text">Figma</p>
+                </div>
+
+                
+                </div>
+                </div>
+            </div>
+
+            <div class="verktoy-group verktoy-secondary">
+                <h3 class="verktoy-subtitle">Sekundære</h3>
+                <div class="verktoy-content">
+                <div class="verktoy-item">
+                    <img src="images/logo/premierpro.png"  alt="Premiere Pro" class="verktoy-img" width="100px" height="auto">
+                    <p class="verktoy-text">Premiere Pro</p>
+                </div>
+
+                <div class="verktoy-item">
+                    <img src="images/logo/aftereffects.png"  alt="After Effects" class="verktoy-img" width="100px" height="auto">
+                    <p class="verktoy-text">After Effects</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools" class="tools">
+        <div class="container">
+            <h2 class="section-title">Ferdigheter og Kvalifikasjoner</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <h3>Kunst</h3>
+                    <ul class="tool-list">
+                        <li>Visuell Komposisjon</li>
+                        <li>Fargelære</li>
+                        <li>Tegneteknikker</li>
+                        <li>Kreativ Uttrykk</li>
+                    </ul>
+                </div>
+                <div class="tool-card">
+                    <h3>Design</h3>
+                    <ul class="tool-list">
+                        <li>Grafisk Design</li>
+                        <li>UI/UX Design</li>
+                        <li>Layoutdesign</li>
+                        <li>Digitalt Design</li>
+                    </ul>
+                </div>
+                <div class="tool-card">
+                    <h3>Søm</h3>
+                    <ul class="tool-list">
+                        <li>Maskinsy</li>
+                        <li>Tekstilkunst</li>
+                    </ul>
+                </div>
+                <div class="tool-card">
+                    <h3>IKT</h3>
+                    <ul class="tool-list">
+                        <li>HTML</li>
+                        <li>CSS</li> 
+                        <li>JavaScript</li>
+                        <li>React + Vite</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Har lært Section -->
+    <section id="harlaert" class="harlaert">
+        <div class="container">
+            <h2 class="section-title">Erfaring</h2>
+            <div class="experience-content">
+                <div class="experience-item">
+
+                    <div class="exp-box">
+                        <p class="experience-date">2022-2026 - Freelance Illustratør - Selvstendig</p>
+                        <p class="experience-description">Utførte bestilte illustrasjoner for kunder.
+                            Kommuniserte med kunder og tilpasset arbeidet etter deres ønsker.
+                            Håndterte egne oppdrag, tidsfrister og leveranser.
+.</p>
+                    </div>
+                    <div class="exp-box">
+                        <p class="experience-date">Mar 2026- Mar 2026 - Webutvikling, Kilde</p>
+                        <p class="experience-description"> Var med Kilde for praksis under IM.<br>
+                            Fikk lære om verktøy og teknologier som blir brukt under webutvikling som sanity, vercel, react +vite.<br>
+                            Samt fikk jeg vite hvordan HA og nyhet nettsider opererer og fungerer.
+                        </p>
+                    </div>
+                     <div class="exp-box">
+                        <p class="experience-date">Mai 2026–Jun 2026 - Servitør, Sushi House</p>
+                        <p class="experience-description">Arbeidet med kundeservice, ordrebehandling, utlevering av bestillinger og renhold, samt bidratt til den daglige driften av restauranten.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Qualifications Section -->
+    <section id="qualifications" class="qualifications">
+        <img src="images/decorations/star-gold.svg" alt="" class="decorative-star star-qualifications" aria-hidden="true">
+        <div class="container">
+            <h2 class="section-title">Utdanning</h2>
+            <div class="qualifications-content">
+                <div class="qualification-item">
+                    <div class="qual-header">
+                        <h3>Min utdanningsreise</h3>
+                    </div>
+                    <ol class="education-timeline">
+                        <li class="timeline-item completed">
+                            <div class="timeline-marker" aria-hidden="true">01</div>
+                            <div class="timeline-content">
+                                <span class="timeline-status">Fullført</span>
+                                <h4>VG1 IT og medieproduksjon</h4>
+                                <p class="institution">Hamar Katedralskole · 2025/2026</p>
+                            </div>
+                        </li>
+                        <li class="timeline-item current">
+                            <div class="timeline-marker" aria-hidden="true">02</div>
+                            <div class="timeline-content">
+                                <span class="timeline-status">Pågående</span>
+                                <h4>VG2 Informasjonsteknologi</h4>
+                                <p class="institution">Hamar Katedralskole · 2026/2027</p>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <img src="images/decorations/star-cream.svg" alt="" class="decorative-star star-projects" aria-hidden="true">
+        <div class="container">
+            <h2 class="section-title">Prosjekter</h2>
+            <div class="projects-grid">
+                <a href="gallery-illustrations.html" class="project-card">
+                    <div class="project-image" style="background-image: url(images/Kunst/mary.png); opacity: 0.5;"></div>
+                    <div class="project-content">
+                        <h3>Illustrasjoner</h3>
+                        <p class="project-description">En samling av digitale og håndtegnede illustrasjoner som viser kreative kunstprodukter.</p>
+                    </div>
+                </a>
+
+                <a href="gallery-tailor.html" class="project-card">
+                    <div class="project-image" style="background-image: url(images/Tailor.png); opacity: 0.5;"></div>
+                    <div class="project-content">
+                        <h3>Skredder</h3>
+                        <p class="project-description">Tilpassede sy- og skredderprosjekter, fra plagg til dekorative tekstilstykker.</p>
+                    </div>
+                </a>
+
+                <a href="gallery-design.html" class="project-card">
+                    <div class="project-image" style="background-image: url(images/design.png); opacity: 0.5;"></div>
+                    <div class="project-content">
+                        <h3>Design</h3>
+                        <p class="project-description">Grafisk design, UI/UX og visualdesignprosjekter opprettet med lidenskap og kreativitet.</p>
+                    </div>
+                </a>
+
+                <a href="gallery-IKT.html" class="project-card">
+                    <div class="project-image" style="background-image: url(images/IKT.png); opacity: 0.5;"></div>
+                    <div class="project-content">
+                        <h3>IKT</h3>
+                        <p class="project-description">Web | Python | server</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact"></section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Om</h4>
+                    <p>En lidenskapelig utvikler som skaper fantastiske nettopplevelser.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Raske Lenker</h4>
+                    <ul>
+                        <li><a href="#home">Hjem</a></li>
+                        <li><a href="#qualifications">Utdanning</a></li>
+                        <li><a href="#projects">Prosjekt
+                        <li><a href="#tools">Kvalifikasjoner</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Kontakt</h4>
+                    <ul>
+                        <li><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=ngoctran020209@gmail.com" target="_blank" rel="noopener noreferrer">Email: ngoctran020209@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Ngoc Tran Huynh. Alle rettigheter reservert.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
